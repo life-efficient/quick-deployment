@@ -1,7 +1,7 @@
 git add -A
 echo "Enter a commit message"
 read commit
-git commit -m '${commit}'
+git commit -m "${commit}"
 npm run build
 echo "Enter the bucket you want to sync with"
 read bucket
