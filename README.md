@@ -1,11 +1,13 @@
 # quick-deployment
 
+*"When you move fast, even deployment becomes a bottleneck"*
+
 This repo contains tools that I use to frequently deploy different types of code including:
 - NPM packages
 - websites & webapps
 
 Some scripts only currently support my stack:
-- serving websites through AWS S3
+- serving websites through AWS S3, which are built with create-react-app
 
 Listed below are the different bash scripts and their explanations
 
