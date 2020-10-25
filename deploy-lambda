@@ -1,0 +1,4 @@
+cd src
+zip -rX ../deployment-package.zip .
+cd ..
+aws lambda update-function-code --function-name ${PWD##*/} --zip-file fileb://deployment-package.zip
