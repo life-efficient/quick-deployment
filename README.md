@@ -1,6 +1,6 @@
 # quick-deployment
 
-*"When you move fast, even deployment becomes a bottleneck"*
+*When you move fast, even deployment becomes a bottleneck*
 
 This repo contains tools that I use to frequently deploy different types of code including:
 - NPM packages
