@@ -26,3 +26,7 @@ This script sequentially:
 - adds all files to staging and commits them, asking you for a commit message
 - pushes them to github
 - syncs the `build` folder with the bucket you are prompted to enter
+
+## deploy-lambda
+
+From within a folder, which must be entitled the name of the lambda function that you want to deploy, this script zips up everything in the ```src``` directory into a deployment package, and updates the code within the associated lambda function on AWS.
